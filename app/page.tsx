@@ -50,8 +50,7 @@ export default function Home() {
             Run the <code className="bg-muted p-1 rounded">init</code> command to
             create a new Next.js project or to setup an existing one:
           </p>
-          <CodeBlock code="sdsd" />
-          <div className="flex gap-5 py-2 relative">
+          <div className="flex gap-5 py-2">
             <Button variant={"outline"}>pnpm</Button>
             <Button variant={"outline"}>npm</Button>
             <Button variant={"outline"}>yarn</Button>
