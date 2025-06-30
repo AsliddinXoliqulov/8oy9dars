@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { ThemeToggle } from "@/components/theme-toggle";
 
 export default function Home() {
   return (
@@ -99,42 +98,6 @@ export default function Home() {
         </div>
       </div>
     </div>
-  );
-}
-
-function SidebarContent() {
-  return (
-    <>
-      <div>
-        <h4 className="font-bold mb-2">Get Started</h4>
-        <ul className="space-y-1">
-          <li>Introduction</li>
-          <li>Installation</li>
-          <li>components.json</li>
-          <li>Theming</li>
-          <li>Dark Mode</li>
-          <li>CLI</li>
-          <li>Monorepo</li>
-          <li>Open in v0</li>
-          <li>JavaScript</li>
-          <li>Blocks</li>
-          <li>Figma</li>
-          <li>Changelog</li>
-          <li>Legacy Docs</li>
-        </ul>
-      </div>
-      <div>
-        <h4 className="font-bold mb-2">Components</h4>
-        <ul className="space-y-1">
-          <li>Accordion</li>
-          <li>Alert</li>
-          <li>Alert Dialog</li>
-          <li>Aspect Ratio</li>
-          <li>Avatar</li>
-          <li>Badge</li>
-        </ul>
-      </div>
-    </>
   );
 }
 
